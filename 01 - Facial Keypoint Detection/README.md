@@ -9,3 +9,4 @@ In this project, computer vision techniques and deep learning architectures are 
 - The project detects the faces in the image as shown below: <br>
 ![](https://github.com/zainmujahid/Udacity---Computer-Vision-NanoDegree/blob/master/01%20-%20Facial%20Keypoint%20Detection/images/face_detection.PNG)
 - Predicts the location of facial keypoints on each face as shown below: <br>
+![](https://github.com/zainmujahid/Udacity---Computer-Vision-NanoDegree/blob/master/01%20-%20Facial%20Keypoint%20Detection/images/facial_keypoints.PNG)
