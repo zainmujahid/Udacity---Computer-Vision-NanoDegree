@@ -12,3 +12,4 @@ In this project, computer vision techniques and deep learning architectures are 
 ![](https://github.com/zainmujahid/Udacity---Computer-Vision-NanoDegree/blob/master/01%20-%20Facial%20Keypoint%20Detection/images/facial_keypoints.PNG)
 
 # Fun Results
+This project can be used to get really fun results including applying the desired filters on detected facial points as shown below: <br>
