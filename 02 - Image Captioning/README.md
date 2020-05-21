@@ -23,3 +23,7 @@ The left half of the diagram depicts the <a href="https://github.com/zainmujahid
 After training the model the final **Loss Graph** can be seen below:
 
 ![foo](images/loss_graph.png)
+
+Later on, two captions were created using this model as seen below:
+
+![foo](images/results.png)
