@@ -18,3 +18,4 @@ The left half of the diagram depicts the <a href="https://github.com/zainmujahid
 
 - [The Inference notebook](3_Inference.ipynb) contains the testing of the trained networks to generate captions for additional images. No rigorous validation or accuracy measurement was performed, only sample images were generated.
 
+## Results
