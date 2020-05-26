@@ -20,3 +20,22 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 ## Robot Class Methods 
 
 ###### There're two important methods in ```Robot``` class which are ```sense``` and ```move``` methods.
+
+
+### Move Method 
+
+This method is used to move the robot around the world given ```dx``` & ```dy``` (The Displacement in x and y Directions) and make sure that the robot will not move outside the world.
+
+```python
+def move(self, dx, dy):
+
+        x = self.x + dx + self.rand() * self.motion_noise
+        y = self.y + dy + self.rand() * self.motion_noise
+
+        if x < 0.0 or x > self.world_size or y < 0.0 or y > self.world_size:
+            return False
+        else:
+            self.x = x
+            self.y = y
+            return True
+```
