@@ -12,3 +12,7 @@ In this project, I implemented SLAM (Simultaneous Localization and Mapping) for 
 Statistical techniques used to approximate the above equations include ```Kalman filters``` and particle filters (aka. Monte Carlo methods). They provide an estimation of the posterior probability function for the pose of the robot and for the parameters of the map. 
 
 ![Sense and Motion Cycle](https://i.ibb.co/5W4tW3P/sense-move.png) 
+
+Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in your work you will likely generate a variety of these maps.
+
+![foo](images/robot_world.png)
