@@ -75,3 +75,5 @@ This method is used to sense the distance between each robot location ```Xi``` a
 
         return measurements
 ```
+
+> Code for robot class can be found in [robot_class.py](robot_class.py) file.
