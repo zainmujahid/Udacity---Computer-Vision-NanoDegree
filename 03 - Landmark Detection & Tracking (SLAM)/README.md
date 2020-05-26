@@ -39,3 +39,39 @@ def move(self, dx, dy):
             self.y = y
             return True
 ```
+
+### Sense Method 
+
+This method is used to sense the distance between each robot location ```Xi``` at a certain time step```i``` and the locations of the ```landmarks``` with a certain noise ```self.measurement_noise``` and returns a ```measurments``` list which contains the distances between current robot location and all the landmarks in the form of  ```[idx,dx,dy]``` where idx is the n'th landmark.
+
+
+```python
+    # sense: returns x- and y- distances to landmarks within visibility range
+    #        because not all landmarks may be in this range, the list of measurements
+    #        is of variable length. Set measurement_range to -1 if you want all
+    #        landmarks to be visible at all times
+    #
+    
+    def sense(self):
+        ''' This function does not take in any parameters, instead it references internal variables
+            (such as self.landamrks) to measure the distance between the robot and any landmarks
+            that the robot can see (that are within its measurement range).
+            This function returns a list of landmark indices, and the measured distances (dx, dy)
+            between the robot's position and said landmarks.
+            This function should account for measurement_noise and measurement_range.
+            One item in the returned list should be in the form: [landmark_index, dx, dy].
+            '''
+           
+        measurements = []
+ 
+        for idx in range(self.num_landmarks):
+            dx = (self.landmarks[idx][0] - self.x)
+            dy = (self.landmarks[idx][1] - self.y)
+            
+            dx , dy = dx + (self.rand() * self.measurement_noise), dy + (self.rand() * self.measurement_noise)
+            
+            if (abs(dx) < self.measurement_range) and (abs(dy) < self.measurement_range):
+                measurements.append([idx, dx, dy])
+
+        return measurements
+```
