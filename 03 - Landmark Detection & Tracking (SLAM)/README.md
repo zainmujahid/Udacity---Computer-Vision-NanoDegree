@@ -16,3 +16,7 @@ Statistical techniques used to approximate the above equations include ```Kalman
 Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using *only* sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in your work you will likely generate a variety of these maps.
 
 ![foo](images/robot_world.png)
+
+## Robot Class Methods 
+
+###### There're two important methods in ```Robot``` class which are ```sense``` and ```move``` methods.
