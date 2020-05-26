@@ -77,3 +77,6 @@ This method is used to sense the distance between each robot location ```Xi``` a
 ```
 
 > Code for robot class can be found in [robot_class.py](robot_class.py) file.
+
+## Dependencies
+The minimal dependencies for this project can be found in `requirements.txt`. To install these dependencies with pip, you can issue `pip3 install -r requirements.txt`
