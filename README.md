@@ -4,7 +4,9 @@
 
 This repository contains solutions to my 3 projects related to [Udacity's Computer Vision Nanodegree](https://www.udacity.com/course/computer-vision-nanodegree--nd891)  program. The notebooks lead you through their implementation.
 
-![](resources/nd_banner.jpg)
+<p align="center">
+  <img src="resources/nd_banner.jpg" alt="Nanodegree Banner" />
+</p>
 
 Project | Concepts | Tools 
 --- | --- | ---
