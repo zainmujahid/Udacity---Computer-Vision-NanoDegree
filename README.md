@@ -24,4 +24,4 @@ To install these dependencies with pip, you can issue `pip3 install -r requireme
 
 ## Honor Code
 
-This Repository created just to show off my work. You are not eligible to **Copy** any **Solution Codes**. This Repository shows respect and values the [Udacity Honor Code](https://www.udacity.com/legal/en-us/community-guidelines)
+The purpose of this Repository is just to show off my work. You are not eligible to **Copy** any **Solution Codes**. This Repository shows respect and values the [Udacity Honor Code](https://www.udacity.com/legal/en-us/community-guidelines)
